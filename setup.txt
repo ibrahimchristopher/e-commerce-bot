@@ -1,0 +1,29 @@
+------------SET UP INSTRUCTIONS---------
+Ensure you have the following prerequsites: 
+    Python,
+    Twilo Account: check the official docs for step by step guide
+    Ngrok Account: check the official docs for step by step guide
+
+ensure you have downloaded project folder to your local machine; navigaton terminal
+    
+create a development enviroment(optional)# for this example lets call the enviroment: env_name
+    python -m venv <choose an env_name:env_name>
+    source env_name/bin/activate  # Linux/Mac
+    env_name\Scripts\activate  # Windows
+
+install requirements
+    pip install -r requirements.txt
+run the local server
+    uvicorn whatsapp_server:app --reload
+
+Host on a public serve using Ngrok
+    ngrok http 8000
+    you should see session status set to online and lastly the fowarding url(https://.........ngrok-free.app)
+
+update the twilo webhook with the ngrokid on your terminal(https://.........ngrok-free.app)
+    on twilo sandbox settingsm under When a message comes in add this
+    https://.........ngrok-free.app/message
+
+    Note the /message part of the url.
+
+test out the bot by sending a message using the qr code

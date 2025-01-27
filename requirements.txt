@@ -1,0 +1,13 @@
+fastapi
+langchain-community
+langgraph
+openai
+psycopg2-binary
+pyngrok
+python-decouple
+python-multipart
+sqlalchemy
+twilio
+uvicorn
+pandas
+langchain_openai
