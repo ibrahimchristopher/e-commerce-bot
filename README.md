@@ -4,6 +4,7 @@
 
 ## AI Agent
 ###Set up  and activate python enviroment
+    
     - python3 -m venv env
     - source env/bin/activate(on mac)
     -  .\env\Scripts\activate (on windows)
