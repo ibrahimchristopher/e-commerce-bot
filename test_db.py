@@ -7,6 +7,7 @@ db_file = "orders.db"
 conn = sqlite3.connect(db_file)
 cursor = conn.cursor()
 
+##Lets test out the database connections with some examples
 # Example 1: Count the number of orders
 cursor.execute("SELECT COUNT(*) FROM orders")
 total_orders = cursor.fetchone()[0]
