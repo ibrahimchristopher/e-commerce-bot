@@ -2,7 +2,6 @@
 ##PLEASE READ THROUGH
 
 from agent import AgenticSystem
-from groq import Groq
 
 agent = AgenticSystem()
 

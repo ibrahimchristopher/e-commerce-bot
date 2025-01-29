@@ -1,0 +1,9 @@
+# Exclude environment files
+.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Virtual environment
+chatbot-env
+chatbot-env/
