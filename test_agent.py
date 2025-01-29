@@ -1,5 +1,5 @@
 ######THE EASIEST WAY TO TEST OUT THE SYSTEM AFTER EVERYTHING HAS BEEN SET UP#########
-##PLEASE READ THROUGH
+##PLEASE READ THROUGH AND RUN
 
 from agent import AgenticSystem
 
@@ -15,6 +15,7 @@ def respond_to_query(query):
     chat_response = response[-1].content
     print(chat_response)
 
+#first set of test questions to demo project
 test_questions = [
     "Hi there, what is the status for order SAV_5",
     "Hi there, what is the status for order SAV_190",
@@ -34,9 +35,9 @@ for test_q in test_questions:
 
 
 
-#lets really take it up a notch here, make the customers ruder, less direct and morelike the rea world
+#lets really take it up a notch here, make the customers ruder, less direct and more ambigous in request and similar to real world interactions
 advanced_questions = [
-    "Hi is my package status of order SAV_21 ever going to be completed or are the workers asleep",#rude
+    "Hi is my package status of order SAV_21 ever going to be completed or are the workers asleep",
     "i purchased some watches last week can i still return them",#less direct 
     "how about apples",#deviating from policy
     "i paid by card but can i get a cash refund and i dont feel comfortable talking to a non human",##deviating from policy and indirect request to talk to rep
