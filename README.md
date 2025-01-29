@@ -1,4 +1,4 @@
-# AI Agent + WhatsApp Bot
+# E-Commerce AI Agent + WhatsApp Bot
 
 
 https://github.com/user-attachments/assets/404760ea-4993-4e5c-9c27-37790d5dcedc
