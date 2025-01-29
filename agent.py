@@ -36,7 +36,7 @@ with open("policy.txt", "r", encoding="utf-8") as file:
 #set up chunks
 docs = [{"page_content": txt.strip()} for txt in re.split(r"(?=Q:)", faq_text)]
 
-#filter out a problematic issue here (lol), figure out what the issue is on a 2nd iteration
+#filter out any problematic issues here
 docs = [doc for doc in docs if len(doc["page_content"]) > 0]
 
 class VectorStoreRetriever:
@@ -291,4 +291,3 @@ class AgenticSystem:
             return response[-1].content
         return response
 
-#-------------------------------------

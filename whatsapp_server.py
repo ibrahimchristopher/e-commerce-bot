@@ -1,7 +1,8 @@
-##Absoluttely optional part of the pipeline but considering we need an outlet for people to vent, 
+##Absoluttely optional part of the pipeline but considering we need an outlet for people to report issues, 
 #why not a whatsapp channel
-##All you need is a twilo account and free api
+##All you need is a twilo account and free ngrok api
 
+#see setup.txt on  how to run this
 
 import os
 from fastapi import FastAPI, Form, Depends
