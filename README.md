@@ -1,7 +1,5 @@
 # AI Agent + WhatsApp Bot
 
-
-
 ## AI Agent
 ###Set up  and activate python enviroment
     
@@ -15,17 +13,28 @@
 
 ###set up enviroment variables in a file named .env( same folder)
     
-    - OPENAI_API_KEY=your whatsapp api
-    - if you also want to navigate the option of deploying over social media, whatsapp
+    - OPENAI_API_KEY=your open api key
+    - if you also want to navigate the option of deploying over a whatsapp sandbox enviroment
     - TWILIO_ACCOUNT_SID #see set up.txt file
     - TWILIO_AUTH_TOKEN #see set up.txt file
     - TWILIO_NUMBER #see set up.txt file
 
 ###open and run the python script: test_db; to ensure dummy database (orders.db) is ready and avalaible
     
-    - once you see sample data returned, database is good to go
+    - once you see a sample data like below returned, database is good to go
+    -.......
+    -('SAV_968', 'In Progress', '2025-01-15')
+    ('SAV_998', 'Completed', '2025-01-15')
 
-###open and run the test_agent.py script to test the agent
+    Order Statuses:
+    Completed
+    In Progress
+    Not Started
+
+###open and run the test_agent.py script to run and test the agent
+
+-  at the current moment, you have several listed messages, go ahead and update the list with messages you might want to pass to the agent
+    - test response are to be printed to terminal
 
 
 ## WhatsApp Bot
