@@ -40,7 +40,3 @@ https://github.com/user-attachments/assets/404760ea-4993-4e5c-9c27-37790d5dcedc
 -  at the current moment, you have several listed messages, go ahead and update the list with messages you might want to pass to the agent
     - test response are to be printed to terminal
 
-
-## WhatsApp Bot
-If you want to demo on whatapp(optional)
-read setup.txt file

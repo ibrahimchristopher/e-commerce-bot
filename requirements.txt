@@ -6,7 +6,7 @@ pyngrok
 python-decouple
 python-multipart
 sqlalchemy
-twilio
-uvicorn
 pandas
 langchain_openai
+langchain_groq
+streamlit

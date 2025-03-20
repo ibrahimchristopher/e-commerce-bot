@@ -15,6 +15,8 @@ def respond_to_query(query):
     chat_response = response[-1].content
     print(chat_response)
 
+
+"""
 #first set of test questions to demo project
 test_questions = [
     "Hi there, what is the status for order SAV_5",
@@ -33,7 +35,7 @@ for test_q in test_questions:
     respond_to_query(test_q)
     print("_____"*20)
 
-
+"""
 
 #lets really take it up a notch here, make the customers ruder, less direct and more ambigous in request and similar to real world interactions
 advanced_questions = [
@@ -50,3 +52,4 @@ for test_q in advanced_questions:
     print(test_q)
     respond_to_query(test_q)
     print("_____"*20)
+
